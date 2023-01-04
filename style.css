@@ -1,0 +1,66 @@
+/* for Table */
+body,nav{
+    margin:0 ;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    }
+    td,th{
+        border: 2px solid limegreen;
+        padding: 10px 20px;
+        text-align: center;
+        background-color: pink;
+        width: 150px;
+        }
+
+
+    /* for nav Bar */
+
+    nav{
+        background-color: green ;
+        width: 100%;
+       margin: 0 ;
+       height: 45px;
+    }
+ nav > ul{
+    display: flex;
+    /* text-align: right; */
+ }
+
+ nav li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px 10px;
+    /* background-color: darkcyan; */
+    /* color: tomato; */
+    
+ }
+
+ nav li :hover{
+    color: yellow;
+    /* background-color: black;
+     */
+ }
+
+ nav li a{
+    text-decoration: none;
+    color: black;
+    
+ }
+
+ nav li .drop{
+    display: none;
+    position: absolute;
+    background-color:gray;
+    padding-left: 10px;
+ }
+
+ nav li:hover > .drop{
+    display: block;
+ }
+ 
+        
+

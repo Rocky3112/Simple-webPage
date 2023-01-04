@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA Form</title>
+    <style>
+        label{
+            display: block;
+            margin: 5px;
+        }
+    </style><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+
+       <nav>
+        <ul>
+            <li><a href="semantic.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="Audio-video.html">AudioVideo</a></li>
+        </ul>
+       </nav>
+
+        <h1>welcome to my web</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, blanditiis.</p>
+    </header>
+    <h2>welcome to my form</h2>
+    <form action="">
+        <label for="name"> Your Name
+            <input type="text" name="" id="name" placeholder="Enter name">
+        </label>
+
+        <label for="email"> Your Email
+            <input type="email" name="" id="email" placeholder="Enter email" required>
+        </label>
+
+        <fieldset>
+            <legend>Pick one food</legend>
+            <label for="rice">
+                <input type="radio" name="food" id="rice">Rice
+            </label>
+            <label for="biriany">
+                <input type="radio" name="food" id="biriany">Biriany
+            </label>
+            <label for="kacci">
+                <input type="radio" name="food" id="kacci">Kacci
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Pick one drinks</legend>
+            <label for="water">
+                <input type="checkbox" name="drinks" id="water"> Water
+            </label>
+            <label for="dew">
+                <input type="checkbox" name="drinks" id="dew"> Dew
+            </label>
+            <label for="pepsi">
+                <input type="checkbox" name="drinks" id="pepsi"> Pepsi
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Review</legend>
+        <label for=""><textarea name="" id="" cols="60" rows="5"></textarea></label>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
